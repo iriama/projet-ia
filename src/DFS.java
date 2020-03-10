@@ -2,33 +2,79 @@ import java.util.Vector;
 
 public class DFS {
 
+    class VisitedNode {
+        private int hash;
+        private int level;
 
-    Vector<Integer> visited;
+        public VisitedNode(int hash, int level) {
+            this.hash = hash;
+            this.level = level;
+        }
 
-    public DFS() {
-        visited = new Vector<Integer>();
+        public int getHash() {
+            return hash;
+        }
+
+        public int getLevel() {
+            return level;
+        }
+
     }
 
-    public void execute(Vector<Integer> node) {
 
-        System.out.println("-----");
-        Problem.printBuckets(node);
+    Vector<VisitedNode> visited;
 
-        if (Problem.isGoalReached(node)) {
-            System.out.println("GOAL REACHED !");
+    public DFS() {
+        visited = new Vector<VisitedNode>();
+    }
+
+    public void execute(Node<Vector<Integer>> node, int level) {
+
+        if (Problem.isGoalReached(node.getValue())) {
+            System.out.println("<<<<< GOAL REACHED ! >>>>>");
+
+            var current = node;
+
+            while (current != null) {
+                System.out.println("---- step");
+                Problem.printBuckets(current.getValue());
+
+                current = current.getParent();
+            }
+
             return;
         }
 
-        visited.add(Problem.getHash(node));
+        var hash = Problem.getHash(node.getValue());
+        var exists = false;
+        for (int i = 0; i<visited.size(); i++) {
+            var val = visited.get(i);
 
-        var children = Generator.generateChildren(node);
+            if (val.hash == hash) {
 
-        for (var child: children) {
-            if (visited.contains(Problem.getHash(child))) continue;
+                if (level < val.level) {
+                    visited.set(i, new VisitedNode(hash, level));
+                } else {
+                    // state explored at a lower level : halt
+                    return;
+                }
 
-            execute(child);
+                exists = true;
+                break;
+            }
         }
 
+        if (!exists) {
+            visited.add(new VisitedNode(hash, level));
+        }
+
+        // visited.add(Problem.getHash(node));
+
+        var children = Generator.generateChildren(node.getValue());
+
+        for (var child: children) {
+            execute(new Node<Vector<Integer>>(child, node), level+1);
+        }
     }
 
 

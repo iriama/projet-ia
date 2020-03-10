@@ -1,23 +1,20 @@
 import java.io.IOException;
+import java.util.Vector;
 
 public class entrypoint {
 
     public static void main(String[] args) throws IOException {
 
-        Problem.parse("G:\\projet-ia\\problems\\test.txt");
+        Problem.parse("C:\\Users\\SOHAIB\\OneDrive\\Desktop\\STUDY\\S6\\projet-ia\\problems\\test.txt");
 
-        Problem.values.set(0, 5);
-        Problem.values.set(1, 4);
-        Problem.values.set(2, 1);
-
+        System.out.println("---- Problem");
         Problem.printBuckets();
-
-        System.out.println(Problem.getHash());
 
         System.out.println("---- DFS");
 
         var DFS = new DFS();
-        DFS.execute(Problem.values);
+        DFS.execute(new Node<Vector<Integer>>(Problem.values, null), 0);
+
 
     }
 
