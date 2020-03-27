@@ -25,6 +25,9 @@ public class BestFirst {
 
             // ---- If goal reached
             if (Problem.isGoalReached(head.getValue())) {
+
+                if (Problem.silent) return;
+
                 System.out.println("<<<<< GOAL REACHED ! >>>>>");
 
                 var current = head;

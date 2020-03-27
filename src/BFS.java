@@ -22,6 +22,9 @@ public class BFS {
 
             // ---- If goal reached
             if (Problem.isGoalReached(head.getValue())) {
+
+                if (Problem.silent) return; // no printing
+
                 System.out.println("<<<<< GOAL REACHED ! >>>>>");
 
                 var current = head;

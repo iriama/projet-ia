@@ -8,6 +8,8 @@ public class Problem {
     public static Vector<Integer> values = new Vector<Integer>();
     private static Vector<Integer> capacities = new Vector<Integer>();
     private static Vector<Integer> goals = new Vector<Integer>();
+    public static boolean silent = false;
+    public static boolean silentDFS = false;
 
     public static void parse(String path) throws IOException {
 

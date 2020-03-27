@@ -11,7 +11,10 @@ public class DFS {
     public void execute(Node<Vector<Integer>> node, int level) {
 
         if (Problem.isGoalReached(node.getValue())) {
-            System.out.println("<<<<< GOAL REACHED ! >>>>>");
+
+            if (Problem.silent || Problem.silentDFS) return; // no printing
+
+            System.out.println("<<<<< GOAL REACHED >>>>>");
 
             var current = node;
 
