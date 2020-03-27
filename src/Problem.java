@@ -76,6 +76,15 @@ public class Problem {
         return goals.get(index);
     }
 
+    public static Vector<Integer> getGoalState() {
+        var ret = new Vector<Integer>();
+
+        for (int i=0; i<values.size(); i++)
+            ret.add(getGoal(i));
+
+        return ret;
+    }
+
     public static boolean isGoalReached(Vector<Integer> values) {
 
         for (int i=0; i<values.size(); i++) {

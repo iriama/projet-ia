@@ -2,26 +2,6 @@ import java.util.Vector;
 
 public class DFS {
 
-    class VisitedNode {
-        private int hash;
-        private int level;
-
-        public VisitedNode(int hash, int level) {
-            this.hash = hash;
-            this.level = level;
-        }
-
-        public int getHash() {
-            return hash;
-        }
-
-        public int getLevel() {
-            return level;
-        }
-
-    }
-
-
     Vector<VisitedNode> visited;
 
     public DFS() {
@@ -50,9 +30,9 @@ public class DFS {
         for (int i = 0; i<visited.size(); i++) {
             var val = visited.get(i);
 
-            if (val.hash == hash) {
+            if (val.getHash() == hash) {
 
-                if (level < val.level) {
+                if (level < val.getLevel()) {
                     visited.set(i, new VisitedNode(hash, level));
                 } else {
                     // state explored at a lower level : halt

@@ -2,17 +2,41 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="34261ebd-0a2a-4332-93e6-f585669e0e0a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problems/17_20_a.buck" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problems/17_20_b.buck" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problems/3_7_13_19_23_29_a.buck" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problems/3_7_13_19_23_29_b.buck" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problems/3_7_13_19_23_29_c.buck" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problems/3_7_13_19_23_29_d.buck" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problems/3_7_13_19_23_29_e.buck" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problems/6_10_15_a.buck" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problems/6_10_15_b.buck" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problems/6_10_15_c.buck" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problems/6_10_15_d.buck" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problems/6_10_15_e.buck" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problems/7_13_19_23_29_a.buck" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problems/7_13_19_23_29_b.buck" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problems/7_13_19_23_29_c.buck" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problems/7_13_19_23_29_e.buck" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problems/7_13_19_23_a.buck" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problems/7_13_19_23_b.buck" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problems/7_13_19_23_c.buck" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problems/7_13_19_23_d.buck" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problems/7_13_19_23_e.buck" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problems/td.buck" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BFS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BestFirst.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DifferenceToGoalHeuristic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/NbGoalReachedHeuristic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/VisitedNode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/projet-ia/DFS.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/projet-ia/DFS.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/projet-ia/META-INF/projet-ia.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/projet-ia/Problem.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/projet-ia/Problem.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/projet-ia/entrypoint.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/projet-ia/entrypoint.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/problems/test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/problems/test.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/DFS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DFS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Problem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Problem.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/entrypoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entrypoint.java" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -48,22 +72,16 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
+  <component name="RecentsManager">
+    <key name="MoveInnerDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="entrypoint" />
       <module name="projet-ia" />
+      <option name="PROGRAM_PARAMETERS" value="C:\\Users\\PC\\IdeaProjects\\projet-ia\\problems\\test.txt" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -85,6 +103,8 @@
       <workItem from="1583580249044" duration="12195000" />
       <workItem from="1583596960000" duration="3290000" />
       <workItem from="1583853596034" duration="5328000" />
+      <workItem from="1585243689105" duration="3797000" />
+      <workItem from="1585310650833" duration="7088000" />
     </task>
     <servers />
   </component>
@@ -96,7 +116,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -107,55 +129,68 @@
       <screen x="0" y="0" width="1440" height="920" />
     </state>
     <state x="313" y="120" key="#Project_Structure/0.0.1440.920@0.0.1440.920" timestamp="1583581908218" />
-    <state x="314" y="153" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583581930473">
+    <state x="3" y="134" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585317344265">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state x="314" y="153" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.920@0.0.1440.920" timestamp="1583581930473" />
+    <state x="3" y="134" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.920@0.0.1440.920" timestamp="1585317344265" />
     <state x="418" y="198" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.28.1920.1024@0.28.1920.1024" timestamp="1580403042038" />
-    <state x="683" y="244" width="546" height="591" key="#com.intellij.ide.util.MemberChooser" timestamp="1580404027780">
-      <screen x="0" y="28" width="1920" height="1024" />
+    <state x="512" y="194" width="546" height="591" key="#com.intellij.ide.util.MemberChooser" timestamp="1585314916903">
+      <screen x="0" y="0" width="1440" height="920" />
     </state>
+    <state x="512" y="194" key="#com.intellij.ide.util.MemberChooser/0.0.1440.920@0.0.1440.920" timestamp="1585314916903" />
     <state x="683" y="244" width="546" height="591" key="#com.intellij.ide.util.MemberChooser/0.28.1920.1024@0.28.1920.1024" timestamp="1580404027780" />
     <state x="589" y="282" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1583581923803">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
     <state x="589" y="282" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1440.920@0.0.1440.920" timestamp="1583581923803" />
+    <state x="778" y="301" key="#com.intellij.refactoring.move.moveInner.MoveInnerDialog" timestamp="1585244940241">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state x="778" y="301" key="#com.intellij.refactoring.move.moveInner.MoveInnerDialog/0.0.1440.920@0.0.1440.920" timestamp="1585244940241" />
     <state x="451" y="209" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1583587130795">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
     <state x="451" y="209" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.920@0.0.1440.920" timestamp="1583587130795" />
-    <state width="1397" height="277" key="GridCell.Tab.0.bottom" timestamp="1583600279809">
+    <state width="1397" height="220" key="GridCell.Tab.0.bottom" timestamp="1585317350180">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state width="1397" height="277" key="GridCell.Tab.0.bottom/0.0.1440.920@0.0.1440.920" timestamp="1583600279809" />
+    <state width="1397" height="220" key="GridCell.Tab.0.bottom/0.0.1440.920@0.0.1440.920" timestamp="1585317350180" />
     <state width="1874" height="269" key="GridCell.Tab.0.bottom/0.28.1920.1024@0.28.1920.1024" timestamp="1580404265892" />
-    <state width="1397" height="277" key="GridCell.Tab.0.center" timestamp="1583600279809">
+    <state width="1397" height="220" key="GridCell.Tab.0.center" timestamp="1585317350180">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state width="1397" height="277" key="GridCell.Tab.0.center/0.0.1440.920@0.0.1440.920" timestamp="1583600279809" />
+    <state width="1397" height="220" key="GridCell.Tab.0.center/0.0.1440.920@0.0.1440.920" timestamp="1585317350180" />
     <state width="1874" height="269" key="GridCell.Tab.0.center/0.28.1920.1024@0.28.1920.1024" timestamp="1580404265890" />
-    <state width="1397" height="277" key="GridCell.Tab.0.left" timestamp="1583600279809">
+    <state width="1397" height="220" key="GridCell.Tab.0.left" timestamp="1585317350180">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state width="1397" height="277" key="GridCell.Tab.0.left/0.0.1440.920@0.0.1440.920" timestamp="1583600279809" />
+    <state width="1397" height="220" key="GridCell.Tab.0.left/0.0.1440.920@0.0.1440.920" timestamp="1585317350180" />
     <state width="1874" height="269" key="GridCell.Tab.0.left/0.28.1920.1024@0.28.1920.1024" timestamp="1580404265890" />
-    <state width="1397" height="277" key="GridCell.Tab.0.right" timestamp="1583600279809">
+    <state width="1397" height="220" key="GridCell.Tab.0.right" timestamp="1585317350180">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state width="1397" height="277" key="GridCell.Tab.0.right/0.0.1440.920@0.0.1440.920" timestamp="1583600279809" />
+    <state width="1397" height="220" key="GridCell.Tab.0.right/0.0.1440.920@0.0.1440.920" timestamp="1585317350180" />
     <state width="1874" height="269" key="GridCell.Tab.0.right/0.28.1920.1024@0.28.1920.1024" timestamp="1580404265891" />
     <state x="222" y="104" key="SettingsEditor" timestamp="1583581682749">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
     <state x="222" y="104" key="SettingsEditor/0.0.1440.920@0.0.1440.920" timestamp="1583581682749" />
-    <state x="416" y="286" key="com.intellij.ide.util.TipDialog" timestamp="1583596959759">
+    <state width="498" height="446" key="SwitcherDM" timestamp="1585317221900">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state x="416" y="286" key="com.intellij.ide.util.TipDialog/0.0.1440.920@0.0.1440.920" timestamp="1583596959759" />
-    <state x="467" y="202" width="672" height="610" key="search.everywhere.popup" timestamp="1583584228372">
+    <state width="498" height="446" key="SwitcherDM/0.0.1440.920@0.0.1440.920" timestamp="1585317221900" />
+    <state x="416" y="286" key="com.intellij.ide.util.TipDialog" timestamp="1585310650640">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state x="467" y="202" width="672" height="610" key="search.everywhere.popup/0.0.1440.920@0.0.1440.920" timestamp="1583584228372" />
+    <state x="416" y="286" key="com.intellij.ide.util.TipDialog/0.0.1440.920@0.0.1440.920" timestamp="1585310650640" />
+    <state x="451" y="228" key="extract.method.dialog" timestamp="1585314634908">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state x="451" y="228" key="extract.method.dialog/0.0.1440.920@0.0.1440.920" timestamp="1585314634908" />
+    <state x="467" y="202" width="672" height="610" key="search.everywhere.popup" timestamp="1585315618261">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state x="467" y="202" width="672" height="610" key="search.everywhere.popup/0.0.1440.920@0.0.1440.920" timestamp="1585315618261" />
     <state x="623" y="253" width="672" height="678" key="search.everywhere.popup/0.28.1920.1024@0.28.1920.1024" timestamp="1580403585569" />
   </component>
 </project>
