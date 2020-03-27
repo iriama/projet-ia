@@ -15,7 +15,6 @@ public class entrypoint {
 
         for (var arg : args) {
             if (arg.equals("--silent")) Problem.silent = true;
-            else if (arg.equals("--silent-dfs")) Problem.silentDFS = true;
         }
 
         //Problem.parse("C:\\Users\\PC\\IdeaProjects\\projet-ia\\problems\\test.txt");

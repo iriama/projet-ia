@@ -2,17 +2,24 @@ import java.util.Vector;
 
 public class DFS {
 
+    boolean found;
     Vector<VisitedNode> visited;
 
     public DFS() {
         visited = new Vector<VisitedNode>();
+        found = false;
     }
 
     public void execute(Node<Vector<Integer>> node, int level) {
 
+        // s'arreter à la premiere solution
+        if (found) return;
+
         if (Problem.isGoalReached(node.getValue())) {
 
-            if (Problem.silent || Problem.silentDFS) return; // no printing
+            found = true;
+
+            if (Problem.silent) return; // no printing
 
             System.out.println("<<<<< GOAL REACHED >>>>>");
 
