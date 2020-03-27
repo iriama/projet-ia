@@ -21,7 +21,7 @@ public class DFS {
 
             if (Problem.silent) return; // no printing
 
-            System.out.println("<<<<< GOAL REACHED >>>>>");
+            System.out.println("<<<<< GOAL REACHED ! >>>>>");
 
             var current = node;
 
