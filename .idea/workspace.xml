@@ -2,40 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="34261ebd-0a2a-4332-93e6-f585669e0e0a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/problems/17_20_a.buck" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/problems/17_20_b.buck" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/problems/3_7_13_19_23_29_a.buck" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/problems/3_7_13_19_23_29_b.buck" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/problems/3_7_13_19_23_29_c.buck" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/problems/3_7_13_19_23_29_d.buck" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/problems/3_7_13_19_23_29_e.buck" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/problems/6_10_15_a.buck" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/problems/6_10_15_b.buck" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/problems/6_10_15_c.buck" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/problems/6_10_15_d.buck" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/problems/6_10_15_e.buck" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/problems/7_13_19_23_29_a.buck" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/problems/7_13_19_23_29_b.buck" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/problems/7_13_19_23_29_c.buck" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/problems/7_13_19_23_29_e.buck" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/problems/7_13_19_23_a.buck" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/problems/7_13_19_23_b.buck" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/problems/7_13_19_23_c.buck" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/problems/7_13_19_23_d.buck" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/problems/7_13_19_23_e.buck" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/problems/td.buck" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BFS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BestFirst.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DifferenceToGoalHeuristic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/NbGoalReachedHeuristic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/VisitedNode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/projet-ia/DFS.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/projet-ia/DFS.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/projet-ia/Problem.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/projet-ia/Problem.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/projet-ia/entrypoint.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/projet-ia/entrypoint.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DFS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DFS.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Problem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Problem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entrypoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entrypoint.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,9 +34,9 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
@@ -104,8 +71,16 @@
       <workItem from="1583596960000" duration="3290000" />
       <workItem from="1583853596034" duration="5328000" />
       <workItem from="1585243689105" duration="3797000" />
-      <workItem from="1585310650833" duration="7088000" />
+      <workItem from="1585310650833" duration="7242000" />
     </task>
+    <task id="LOCAL-00001" summary="final">
+      <created>1585317817370</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1585317817370</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -124,6 +99,10 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="final" />
+    <option name="LAST_COMMIT_MESSAGE" value="final" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="313" y="120" key="#Project_Structure" timestamp="1583581908218">
       <screen x="0" y="0" width="1440" height="920" />
@@ -139,10 +118,10 @@
     </state>
     <state x="512" y="194" key="#com.intellij.ide.util.MemberChooser/0.0.1440.920@0.0.1440.920" timestamp="1585314916903" />
     <state x="683" y="244" width="546" height="591" key="#com.intellij.ide.util.MemberChooser/0.28.1920.1024@0.28.1920.1024" timestamp="1580404027780" />
-    <state x="589" y="282" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1583581923803">
+    <state x="589" y="282" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1585317913514">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state x="589" y="282" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1440.920@0.0.1440.920" timestamp="1583581923803" />
+    <state x="589" y="282" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1440.920@0.0.1440.920" timestamp="1585317913514" />
     <state x="778" y="301" key="#com.intellij.refactoring.move.moveInner.MoveInnerDialog" timestamp="1585244940241">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
@@ -151,34 +130,42 @@
       <screen x="0" y="0" width="1440" height="920" />
     </state>
     <state x="451" y="209" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.920@0.0.1440.920" timestamp="1583587130795" />
-    <state width="1397" height="220" key="GridCell.Tab.0.bottom" timestamp="1585317350180">
+    <state x="345" y="55" key="CommitChangelistDialog2" timestamp="1585317815745">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state width="1397" height="220" key="GridCell.Tab.0.bottom/0.0.1440.920@0.0.1440.920" timestamp="1585317350180" />
+    <state x="345" y="55" key="CommitChangelistDialog2/0.0.1440.920@0.0.1440.920" timestamp="1585317815745" />
+    <state width="698" height="220" key="GridCell.Tab.0.bottom" timestamp="1585317867645">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state width="698" height="220" key="GridCell.Tab.0.bottom/0.0.1440.920@0.0.1440.920" timestamp="1585317867645" />
     <state width="1874" height="269" key="GridCell.Tab.0.bottom/0.28.1920.1024@0.28.1920.1024" timestamp="1580404265892" />
-    <state width="1397" height="220" key="GridCell.Tab.0.center" timestamp="1585317350180">
+    <state width="698" height="220" key="GridCell.Tab.0.center" timestamp="1585317867645">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state width="1397" height="220" key="GridCell.Tab.0.center/0.0.1440.920@0.0.1440.920" timestamp="1585317350180" />
+    <state width="698" height="220" key="GridCell.Tab.0.center/0.0.1440.920@0.0.1440.920" timestamp="1585317867645" />
     <state width="1874" height="269" key="GridCell.Tab.0.center/0.28.1920.1024@0.28.1920.1024" timestamp="1580404265890" />
-    <state width="1397" height="220" key="GridCell.Tab.0.left" timestamp="1585317350180">
+    <state width="698" height="220" key="GridCell.Tab.0.left" timestamp="1585317867645">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state width="1397" height="220" key="GridCell.Tab.0.left/0.0.1440.920@0.0.1440.920" timestamp="1585317350180" />
+    <state width="698" height="220" key="GridCell.Tab.0.left/0.0.1440.920@0.0.1440.920" timestamp="1585317867645" />
     <state width="1874" height="269" key="GridCell.Tab.0.left/0.28.1920.1024@0.28.1920.1024" timestamp="1580404265890" />
-    <state width="1397" height="220" key="GridCell.Tab.0.right" timestamp="1585317350180">
+    <state width="698" height="220" key="GridCell.Tab.0.right" timestamp="1585317867645">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state width="1397" height="220" key="GridCell.Tab.0.right/0.0.1440.920@0.0.1440.920" timestamp="1585317350180" />
+    <state width="698" height="220" key="GridCell.Tab.0.right/0.0.1440.920@0.0.1440.920" timestamp="1585317867645" />
     <state width="1874" height="269" key="GridCell.Tab.0.right/0.28.1920.1024@0.28.1920.1024" timestamp="1580404265891" />
-    <state x="222" y="104" key="SettingsEditor" timestamp="1583581682749">
+    <state x="77" y="72" key="SettingsEditor" timestamp="1585317926975">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state x="222" y="104" key="SettingsEditor/0.0.1440.920@0.0.1440.920" timestamp="1583581682749" />
+    <state x="77" y="72" key="SettingsEditor/0.0.1440.920@0.0.1440.920" timestamp="1585317926975" />
     <state width="498" height="446" key="SwitcherDM" timestamp="1585317221900">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1440.920@0.0.1440.920" timestamp="1585317221900" />
+    <state x="313" y="195" key="Vcs.Push.Dialog.v2" timestamp="1585317825930">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state x="313" y="195" key="Vcs.Push.Dialog.v2/0.0.1440.920@0.0.1440.920" timestamp="1585317825930" />
     <state x="416" y="286" key="com.intellij.ide.util.TipDialog" timestamp="1585310650640">
       <screen x="0" y="0" width="1440" height="920" />
     </state>

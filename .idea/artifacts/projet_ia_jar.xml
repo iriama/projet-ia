@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="projet-ia:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/projet_ia_jar</output-path>
+    <root id="archive" name="projet-ia.jar">
+      <element id="module-output" name="projet-ia" />
+    </root>
+  </artifact>
+</component>
