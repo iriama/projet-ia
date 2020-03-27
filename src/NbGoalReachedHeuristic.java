@@ -11,8 +11,8 @@ public class NbGoalReachedHeuristic implements Comparator<Vector<Integer>> {
         for (int i=0; i<a.size(); i++) {
 
             var goal = Problem.getGoal(i);
-            var valA = a.get(0);
-            var valB = b.get(0);
+            var valA = a.get(i);
+            var valB = b.get(i);
 
             if ( valA == goal ) nbReachedA++;
             if ( valB == goal ) nbReachedB++;

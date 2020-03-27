@@ -8,6 +8,7 @@
   <component name="ChangeListManager">
     <list default="true" id="34261ebd-0a2a-4332-93e6-f585669e0e0a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NbGoalReachedHeuristic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NbGoalReachedHeuristic.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +85,8 @@
       <workItem from="1585318154055" duration="814000" />
       <workItem from="1585319094597" duration="1825000" />
       <workItem from="1585329413749" duration="2930000" />
-      <workItem from="1585337797730" duration="167000" />
+      <workItem from="1585337797730" duration="201000" />
+      <workItem from="1585340102436" duration="56000" />
     </task>
     <task id="LOCAL-00001" summary="final">
       <created>1585317817370</created>
@@ -128,7 +130,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585337917465</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="final">
+      <created>1585337991468</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1585337991468</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -181,10 +190,10 @@
       <screen x="0" y="0" width="1440" height="920" />
     </state>
     <state x="451" y="209" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.920@0.0.1440.920" timestamp="1583587130795" />
-    <state x="58" y="51" key="CommitChangelistDialog2" timestamp="1585337914957">
+    <state x="58" y="51" key="CommitChangelistDialog2" timestamp="1585337988468">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state x="58" y="51" key="CommitChangelistDialog2/0.0.1440.920@0.0.1440.920" timestamp="1585337914957" />
+    <state x="58" y="51" key="CommitChangelistDialog2/0.0.1440.920@0.0.1440.920" timestamp="1585337988468" />
     <state x="377" y="239" key="FileChooserDialogImpl" timestamp="1585318827747">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
@@ -217,14 +226,14 @@
       <screen x="0" y="0" width="1440" height="920" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1440.920@0.0.1440.920" timestamp="1585317221900" />
-    <state x="200" y="195" key="Vcs.Push.Dialog.v2" timestamp="1585337922419">
+    <state x="200" y="195" key="Vcs.Push.Dialog.v2" timestamp="1585337993731">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state x="200" y="195" key="Vcs.Push.Dialog.v2/0.0.1440.920@0.0.1440.920" timestamp="1585337922419" />
-    <state x="416" y="286" key="com.intellij.ide.util.TipDialog" timestamp="1585337807005">
+    <state x="200" y="195" key="Vcs.Push.Dialog.v2/0.0.1440.920@0.0.1440.920" timestamp="1585337993731" />
+    <state x="416" y="286" key="com.intellij.ide.util.TipDialog" timestamp="1585340100538">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state x="416" y="286" key="com.intellij.ide.util.TipDialog/0.0.1440.920@0.0.1440.920" timestamp="1585337807005" />
+    <state x="416" y="286" key="com.intellij.ide.util.TipDialog/0.0.1440.920@0.0.1440.920" timestamp="1585340100538" />
     <state x="451" y="228" key="extract.method.dialog" timestamp="1585314634908">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
