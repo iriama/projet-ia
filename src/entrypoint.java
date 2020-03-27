@@ -7,7 +7,7 @@ public class entrypoint {
     public static void main(String[] args) throws IOException {
 
         if (args.length < 1) {
-            System.out.println("usage : java -jar resolver.jar problem.buck [--silent] [--silent-dfs]");
+            System.out.println("usage : java -jar resolver.jar problem.buck [--silent]");
             return;
         }
 
@@ -17,7 +17,7 @@ public class entrypoint {
             if (arg.equals("--silent")) Problem.silent = true;
         }
 
-        //Problem.parse("C:\\Users\\PC\\IdeaProjects\\projet-ia\\problems\\test.txt");
+        //Problem.parse("C:\\Users\\PC\\IdeaProjects\\projet-ia\\problems\\test.buck");
         Problem.parse(path);
 
         System.out.println("---- Problem");

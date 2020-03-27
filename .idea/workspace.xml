@@ -8,10 +8,10 @@
   <component name="ChangeListManager">
     <list default="true" id="34261ebd-0a2a-4332-93e6-f585669e0e0a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resolver.jar" beforeDir="false" afterPath="$PROJECT_DIR$/resolver.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DFS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DFS.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Problem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Problem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/projet-ia/DFS.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/projet-ia/DFS.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/projet-ia/Problem.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/projet-ia/Problem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/projet-ia/entrypoint.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/projet-ia/entrypoint.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/problems/test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/problems/test.buck" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/entrypoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entrypoint.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -88,7 +88,8 @@
       <workItem from="1585310650833" duration="7310000" />
       <workItem from="1585318154055" duration="814000" />
       <workItem from="1585319094597" duration="1825000" />
-      <workItem from="1585329413749" duration="2787000" />
+      <workItem from="1585329413749" duration="2930000" />
+      <workItem from="1585337797730" duration="54000" />
     </task>
     <task id="LOCAL-00001" summary="final">
       <created>1585317817370</created>
@@ -118,7 +119,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585320922465</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="silent mode">
+      <created>1585332398342</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1585332398342</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -171,10 +179,10 @@
       <screen x="0" y="0" width="1440" height="920" />
     </state>
     <state x="451" y="209" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.920@0.0.1440.920" timestamp="1583587130795" />
-    <state x="345" y="55" key="CommitChangelistDialog2" timestamp="1585320915136">
+    <state x="58" y="51" key="CommitChangelistDialog2" timestamp="1585332394218">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state x="345" y="55" key="CommitChangelistDialog2/0.0.1440.920@0.0.1440.920" timestamp="1585320915136" />
+    <state x="58" y="51" key="CommitChangelistDialog2/0.0.1440.920@0.0.1440.920" timestamp="1585332394218" />
     <state x="377" y="239" key="FileChooserDialogImpl" timestamp="1585318827747">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
@@ -207,14 +215,14 @@
       <screen x="0" y="0" width="1440" height="920" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1440.920@0.0.1440.920" timestamp="1585317221900" />
-    <state x="200" y="195" key="Vcs.Push.Dialog.v2" timestamp="1585320925947">
+    <state x="200" y="195" key="Vcs.Push.Dialog.v2" timestamp="1585332407983">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state x="200" y="195" key="Vcs.Push.Dialog.v2/0.0.1440.920@0.0.1440.920" timestamp="1585320925947" />
-    <state x="416" y="286" key="com.intellij.ide.util.TipDialog" timestamp="1585329430766">
+    <state x="200" y="195" key="Vcs.Push.Dialog.v2/0.0.1440.920@0.0.1440.920" timestamp="1585332407983" />
+    <state x="416" y="286" key="com.intellij.ide.util.TipDialog" timestamp="1585337807005">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state x="416" y="286" key="com.intellij.ide.util.TipDialog/0.0.1440.920@0.0.1440.920" timestamp="1585329430766" />
+    <state x="416" y="286" key="com.intellij.ide.util.TipDialog/0.0.1440.920@0.0.1440.920" timestamp="1585337807005" />
     <state x="451" y="228" key="extract.method.dialog" timestamp="1585314634908">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
